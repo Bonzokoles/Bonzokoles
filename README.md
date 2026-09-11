@@ -1,43 +1,74 @@
-# Bonzokoles — AI Architect & Full-Stack Developer
+<div align="center">
 
-> Founder of **Yutro** — AI automation and UI engineering for e-commerce. Building AI products, generative media pipelines, and agent ecosystems that ship to production.
+```
+                        ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                        █                                                            █
+                        █    ██████╗  ██████╗ ███╗   ██╗███████╗ ██████╗            █
+                        █    ██╔══██╗██╔═══██╗████╗  ██║╚══███╔╝██╔═══██╗           █
+                        █    ██████╔╝██║   ██║██╔██╗ ██║  ███╔╝ ██║   ██║           █
+                        █    ██╔══██╗██║   ██║██║╚██╗██║ ███╔╝  ██║   ██║           █
+                        █    ██████╔╝╚██████╔╝██║ ╚████║███████╗╚██████╔╝           █
+                        █    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝            █
+                        █                                                            █
+                        █   ┌─────────────────────────────────────────────────────┐  █
+                        █   │  bonzokoles@yutro  ·  AI ARCHITECT / FULL-STACK      │  █
+                        █   └─────────────────────────────────────────────────────┘  █
+                        █                                                            █
+                        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+```
+
+```
+  $ neofetch
+
+  ┌───────────────────────────────────────────────────────────┐
+  │  host      : yutro.company                                 │
+  │  role      : AI Architect & Full-Stack Developer           │
+  │  os        : Windows 11 · WSL2 · Podman                    │
+  │  gpu       : NVIDIA RTX 3070 8GB                           │
+  │  shell     : git-bash · pwsh · JetBrains Mono              │
+  │  focus     : AI automation for e-commerce                  │
+  │  status    : SHIPPING TO PRODUCTION                        │
+  └───────────────────────────────────────────────────────────┘
+```
+
+</div>
 
 ---
 
-## What I build
+### `$ ls ./capabilities`
 
-| Domain | Focus |
+| Domain | Output |
 |---|---|
-| **Generative AI** | Multi-provider image/video/audio pipelines (Google, fal.ai, Replicate, OpenAI, Stable Diffusion) |
-| **E-commerce automation** | Shopify / IdoSell integrations, SEO pipelines, content automation, RAG knowledge bases |
-| **AI agents** | Multi-agent orchestration, CLI coding agents, model routing, MCP servers |
-| **Web apps** | Next.js, React, Astro, Cloudflare Workers, Three.js |
+| **Generative AI** | Multi-provider image / video / audio pipelines — Gemini, fal.ai, Replicate, OpenAI, Stable Diffusion |
+| **E-commerce automation** | Shopify · IdoSell · SEO pipeline · content automation · RAG knowledge bases |
+| **AI agents** | Multi-agent orchestration · CLI coding agents · model routing · MCP servers |
+| **Web apps** | Next.js · React · Astro · Three.js · Cloudflare Workers |
 
----
+### `$ ls ./stack`
 
-## Tech stack
+```
+TypeScript · JavaScript · Python · Node.js · React · Next.js · Astro · Three.js
+Cloudflare Workers · FastAPI · Docker · Podman · ChromaDB
 
-`TypeScript` `JavaScript` `Python` `Node.js` `React` `Next.js` `Astro` `Three.js` `Cloudflare Workers` `FastAPI` `Docker` `Podman` `ChromaDB`
+providers/  →  Gemini · OpenAI · Claude · DeepSeek · fal.ai · Replicate · OpenRouter
+```
 
-AI providers: `Gemini` `OpenAI` `Claude` `DeepSeek` `fal.ai` `Replicate` `OpenRouter`
+### `$ ls ./featured`
 
----
+- **BONZO_ART_studio** — multi-provider generative AI workbench (image generation, inpainting, Veo video, prompt library, workflow node editor).
+- **yutro-company** — yutro.company, AI automation for e-commerce.
+- **BONZO_camera_studio** — webcam avatar studio (Kling Avatar v2 lip-sync + LivePortrait face reenactment).
+- **The_GizmoCompany_stos** — AI-powered Electron browser with MCP server and multi-provider gateway.
+- **pi-mono** — AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot.
 
-## Featured projects
-
-- **[BONZO_ART_studio](https://github.com/Bonzokoles/BONZO_ART_studio)** — multi-provider generative AI workbench (image generation, inpainting, Veo video, prompt library, 897K prompt catalog).
-- **[yutro-company](https://github.com/Bonzokoles/yutro-company)** — yutro.company, AI automation for e-commerce.
-- **[luc-de-zen-on](https://github.com/Bonzokoles/luc-de-zen-on)** — Astro 5 + React + Cloudflare Workers/D1 AI platform.
-- **[The_GizmoCompany_stos](https://github.com/Bonzokoles/The_GizmoCompany_stos)** — AI-powered Electron browser with MCP server and multi-provider gateway.
-- **[bonzo-ai-agents](https://github.com/Bonzokoles/bonzo-ai-agents)** — Docker-based AI agents for research, analytics and automation.
-
----
-
-## Contact
+### `$ cat ./contact`
 
 - **Yutro** — [yutro.company](https://yutro.company)
 - **Blog** — mybonzoaiblog.com
 
 ---
 
-*Building AI that works today and ships tomorrow.*
+```
+  $ exit
+  connection to production closed.
+```
