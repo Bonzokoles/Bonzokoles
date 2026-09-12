@@ -1,207 +1,186 @@
 <div align="center">
 
 ```
- ██████╗ ██████╗ ███╗   ██╗███████╗ ██████╗ ██╗     ███████╗███████╗
-██╔════╝██╔═══██╗████╗  ██║██╔════╝██╔════╝ ██║     ██╔════╝██╔════╝
-██║     ██║   ██║██╔██╗ ██║█████╗  ██║  ███╗██║     █████╗  █████╗  
-██║     ██║   ██║██║╚██╗██║██╔══╝  ██║   ██║██║     ██╔══╝  ██╔══╝  
-╚██████╗╚██████╔╝██║ ╚████║███████╗╚██████╔╝███████╗███████╗███████╗
- ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝
+██████╗  ██████╗ ███╗   ██╗███████╗ ██████╗ ██╗  ██╗ ██████╗ ██╗     ███████╗███████╗
+██╔══██╗██╔═══██╗████╗  ██║╚══███╔╝██╔═══██╗██║ ██╔╝██╔═══██╗██║     ██╔════╝██╔════╝
+██████╔╝██║   ██║██╔██╗ ██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║██║     █████╗  ███████╗
+██╔══██╗██║   ██║██║╚██╗██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║██║     ██╔══╝  ╚════██║
+██████╔╝╚██████╔╝██║ ╚████║███████╗╚██████╔╝██║  ██╗╚██████╔╝███████╗███████╗███████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝
 ```
 
-> FEAR CAUSES HESITATION & HESITATION WILL CAUSE YOUR WORST FEARS TO BECOME A REALITY
+### Karol "Bonzo" Lisson
+
+**Solo founder @ [Yutro](https://yutro.company) — AI automation for e-commerce**
+AI systems architect · generative media pipelines · agents and RAG · GEO/AEO engineering
+
+[![yutro.company](https://img.shields.io/badge/yutro-.company-0b0f17?style=flat-square)](https://yutro.company)
+[![ai.yutro.company](https://img.shields.io/badge/ai.yutro-.company-0b0f17?style=flat-square)](https://ai.yutro.company)
+[![mybonzoaiblog.com](https://img.shields.io/badge/mybonzoaiblog.com-0b0f17?style=flat-square)](https://www.mybonzoaiblog.com)
+[![jimbo77.org](https://img.shields.io/badge/jimbo77.org-0b0f17?style=flat-square)](https://jimbo77.org)
 
 </div>
 
 ---
 
-## || ARTIST × COMBINATOR × EXTRAVAGANT
+## What I build
 
-Designer-Engineer obsessed with **computer art aesthetics**, generative systems, and building tools that refuse to blend in. I don't create templates — I create **signatures**.
+I build AI systems that have to run in production, carry traffic, and survive being
+maintained by one person. Everything below is deployed, not prototyped.
 
-**Core practice:** Collision of wireframe precision + particle density + glitch archive + orbital data. The interface as a living technical drawing, not a marketing asset.
+```
+AI AUTOMATION FOR E-COMMERCE      Yutro — the business layer
+AGENT RUNTIME + SHARED MEMORY     Hermes, Pi, MemPalace — the machine layer
+GENERATIVE MEDIA PIPELINES        image / video / voice — the output layer
+RAG + KNOWLEDGE INFRASTRUCTURE    retrieval that has to be correct, not pretty
+GEO / AEO ENGINEERING             making a shop legible and citable to LLM crawlers
+EDGE-NATIVE FULL-STACK            Cloudflare Workers/Pages/KV/D1, Next.js, Astro
+```
+
+Filter I apply to every decision: **does it work, does it scale sanely, does it move
+the number.** If an elegant solution does none of those, it gets simplified until it does.
 
 ---
 
-## ▸▸ NEURAL ARCHITECTURE
+## Shipped work
 
-### │ Generative AI & ML
-```
-TensorFlow | PyTorch | LangChain | OpenAI | Gemini
-Vector DBs | Fine-tuning | Multi-agent orchestration | MCP servers
-```
-
-### │ Frontend Alchemy
-```
-React | Next.js | TypeScript | Three.js | Canvas/SVG
-Astro | Framer Motion | Custom shader systems | CSS Grid on steroids
-```
-
-### │ Backend Infrastructure
-```
-FastAPI | Django | PostgreSQL | Redis | Docker/Podman
-Cloudflare Workers | Event streaming | Async task queues
-```
-
-### │ Creative Tooling
-```
-Stable Diffusion | DALL-E 3 | Video generation pipelines
-Audio synthesis | Real-time rendering | Data visualization engines
-```
+| Project | What it is | Stack | Link |
+|---|---|---|---|
+| **Yutro** | AI + UI studio for e-commerce — OpisAI, SklepGPT, ContentFactory, AI SEO | Next.js · Cloudflare | [yutro.company](https://yutro.company) |
+| **ai.yutro.company** | AI store-audit platform, shop agents, SklepGPT widget | Next.js 16 · React 19 | [ai.yutro.company](https://ai.yutro.company) |
+| **mebely.company** | Headless furniture storefront over Shopify Storefront API | Next.js · Shopify | [mebely.company](https://mebely.company) |
+| **PUMO AI Knowledge Base** | 2333-product catalogue made citable to LLMs; 64 AI buying guides | Astro · D1 · Vectorize | [pumo-guide](https://www.mybonzoaiblog.com/pumo-guide/) |
+| **ZENO Browser** | AI browser with agent control plane, MCP tools, stateless file handoff | Astro 5 · React 18 · Electron | [zen-bro-wser.org](https://github.com/Bonzokoles/zen-bro-wser.org) |
+| **BONZO ART Studio** | Generative media workspace — image/video/audio, multi-provider routing, job queue | TypeScript · FAL · Replicate | [BONZO_ART_studio](https://github.com/Bonzokoles/BONZO_ART_studio) |
+| **BONZO Camera Studio** | Webcam avatar studio — Kling Avatar v2 lip-sync, LivePortrait | HTML · Python | [BONZO_camera_studio](https://github.com/Bonzokoles/BONZO_camera_studio) |
+| **JIMBO77** | AI/automation portal, community forum, agent network | Next.js 16 · Three.js · Workers | [jimbo77.org](https://jimbo77.org) |
+| **DEVz HUB** | Command center + architecture graph, agent monitoring | React Flow | [DEVz_HUB](https://github.com/Bonzokoles/DEVz_HUB) |
 
 ---
 
-## ─── SIGNAL MAP: OPERATIONAL NODES ───
+## The AI-facing channel pattern
+
+One of the things I do that most shops and agencies still don't: I publish a
+**dedicated, attributed, machine-readable channel for LLM crawlers** next to the
+human site. Not cloaking, not fake bot targeting — a public mirror that points back
+to the canonical source and stays versioned.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│  LAYER 0: GENERATIVE CORE                                      │
-│  ┌────────────────────────────────────────────────────────────┐│
-│  │ [BONZO ART STUDIO] ────── Generative AI Workbench         ││
-│  │ ├─ Multi-model synthesis (SD | DALL-E | Replicate)       ││
-│  │ ├─ Prompt engineering pipeline + optimization            ││
-│  │ ├─ Production queuing & monitoring systems               ││
-│  │ ├─ Batch processing + real-time inference                ││
-│  │ └─ fal.ai | Replicate integration                        ││
-│  └────────────────────────────────────────────────────────────┘│
-│                                                                 │
-│  LAYER 1: E-COMMERCE INTELLIGENCE                              │
-│  ┌────────────────────────────────────────────────────────────┐│
-│  │ [YUTRO] ───────────── AI-Powered E-Commerce Engine        ││
-│  │ ├─ Shopify automation + inventory sync                    ││
-│  │ ├─ SEO pipeline (content generation + optimization)       ││
-│  │ ├─ RAG-based knowledge base architecture                  ││
-│  │ ├─ Content synthesis at enterprise scale                  ││
-│  │ ├─ Product taxonomy + semantic search                     ││
-│  │ └─ [LIVE] → yutro.company                                 ││
-│  └────────────────────────────────────────────────────────────┘│
-│                                                                 │
-│  LAYER 2: AGENT INFRASTRUCTURE                                 │
-│  ┌────────────────────────────────────────────────────────────┐│
-│  │ [GIZMO] ───────────── Multi-Agent Browser System          ││
-│  │ ├─ Distributed agent orchestration                        ││
-│  │ ├─ Electron + real-time control protocol                  ││
-│  │ ├─ Parallel task execution + state management             ││
-│  │ ├─ Browser automation + CLI agent interface               ││
-│  │ └─ Model routing + reasoning distribution                 ││
-│  └────────────────────────────────────────────────────────────┘│
-│                                                                 │
-│  LAYER 3: MEDIA & DELIVERY                                     │
-│  ┌────────────────────────────────────────────────────────────┐│
-│  │ [MEDIA HUB] ────────── Serverless Streaming Platform       ││
-│  │ ├─ Cloudflare Workers backbone (edge compute)             ││
-│  │ ├─ Real-time transcoding + delivery pipeline              ││
-│  │ ├─ Progressive Web App architecture                       ││
-│  │ ├─ Mobile-optimized streaming + cache strategy            ││
-│  │ └─ CDN distribution + origin pull                         ││
-│  └────────────────────────────────────────────────────────────┘│
-│                                                                 │
-│  LAYER 4: RESEARCH & EXPERIMENTS                               │
-│  ┌────────────────────────────────────────────────────────────┐│
-│  │ [DATA LABS] ────────── ML Research & Prototyping          ││
-│  │ ├─ Fine-tuning workflows (domain adaptation)              ││
-│  │ ├─ Vector DB integration (semantic indexing)              ││
-│  │ ├─ Multi-agent reasoning frameworks                       ││
-│  │ ├─ Real-time inference optimization                       ││
-│  │ └─ Computer art meets data visualization                  ││
-│  └────────────────────────────────────────────────────────────┘│
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-
-   [→ Full Repository Index] [→ Live Demo] [→ Technical Docs]
+/<channel>/llms.txt             short brief for LLMs
+/<channel>/llms-full.txt        full brief — entities, metrics, tables, ready answers
+/<channel>/llm-schema.json      Schema.org @graph: Organization, WebSite, ItemList, FAQPage
+/<channel>/ai-signal.json       machine freshness + data-quality signal
+/<channel>/aiseo-freshness.json human changelog + tip of the day
+/sitemap-ai.xml                 AI sitemap with namespaced <ai:*> metadata
+/robots.txt                     explicit per-agent rules: GPTBot, ChatGPT-User,
+                                CCBot, anthropic-ai, Claude-Web, PerplexityBot
 ```
+
+Live channels: [pumo-guide](https://www.mybonzoaiblog.com/pumo-guide/) ·
+[yutro](https://www.mybonzoaiblog.com/yutro/) ·
+[ai.yutro.company](https://ai.yutro.company/llms.txt) ·
+[jimbo77.org](https://jimbo77.org/llms.txt) ·
+[yutro.company](https://yutro.company/llms.txt)
+
+Rules encoded in every channel: consistent numbers everywhere (inconsistent public
+numbers actively damage GEO), explicit attribution to the canonical source, versioned
+freshness, and no dark patterns.
 
 ---
 
-## ║ OPERATIONAL MATRIX
+## Verified numbers
+
+The PUMO catalogue channel, measured — not estimated:
 
 ```
-┌────────────────────┬─────────────────────────────────────────────┐
-│ DOMAIN             │ EXECUTION PROFILE                           │
-├────────────────────┼─────────────────────────────────────────────┤
-│ Generative AI      │ Image/video/audio pipelines                │
-│                    │ Prompt engineering + optimization          │
-│                    │ Model routing + custom fine-tuning         │
-│                    │ Production inference at scale              │
-├────────────────────┼─────────────────────────────────────────────┤
-│ Multi-Agent Sys    │ Orchestration architectures                │
-│                    │ CLI coding agents + MCP servers            │
-│                    │ Distributed reasoning + state sync         │
-│                    │ Real-time task coordination                │
-├────────────────────┼─────────────────────────────────────────────┤
-│ E-Commerce Intel   │ Shopify integration + automation           │
-│                    │ SEO pipeline (content + tech)              │
-│                    │ Content synthesis at scale                 │
-│                    │ Knowledge graph construction               │
-├────────────────────┼─────────────────────────────────────────────┤
-│ Full-Stack Velocity│ Next.js + FastAPI architecture            │
-│                    │ Real-time systems (WebSocket/SSE)          │
-│                    │ Microservices + event-driven patterns      │
-│                    │ Cloud-native deployment                    │
-├────────────────────┼─────────────────────────────────────────────┤
-│ Visual Engineering │ SVG/Canvas rendering systems              │
-│                    │ Shader programming + GPU acceleration      │
-│                    │ Particle dynamics + physics                │
-│                    │ Wireframe-to-data transformation           │
-└────────────────────┴─────────────────────────────────────────────┘
+2333   active products, cleaned and verified against Allegro listings
+49     categories
+64     AI-generated buying guides
+690    products audited for description/attribute consistency
+230    mismatches found and fixed  ·  0 open issues
+54x    return on the content pipeline      (self-hosted Umami analytics)
+68%    LLM citation rate on the channel    (self-hosted Umami analytics)
+```
+
+Data pipeline: deterministic parser + consistency audit. Content generation:
+**WHITECAT**, a mixture-of-agents system (GPT-4 + Claude) over live catalogue data
+in Cloudflare D1.
+
+---
+
+## Stack
+
+```
+LANGUAGES     TypeScript · JavaScript · Python · Kotlin · SQL · Bash / PowerShell
+FRONTEND      Next.js (App Router) · React 19 · Astro · Three.js / R3F
+              Tailwind · Zustand · Framer Motion · Canvas / SVG / shaders
+BACKEND       Node.js · FastAPI · Python services · Express · WebSocket
+EDGE          Cloudflare Workers · Pages · KV · D1 · R2 · Durable Objects ·
+              Vectorize · Tunnel · Email Routing · Workers AI
+DATA          PostgreSQL · SQLite · Redis · ChromaDB · FTS5 · DuckDB
+AI / LLM      OpenRouter · Anthropic · OpenAI · Gemini · DeepSeek · Ollama
+              RAG · embeddings · fine-tuning · tool/function calling
+AGENTS        MCP servers · multi-agent orchestration · CLI agents
+              Hermes · Pi · Claude Code · Codex · Cursor · OpenCode
+MEDIA         SD / A1111 · ComfyUI · FAL · Replicate · FFmpeg · TTS
+OPS           Docker / Podman · WSL2 · git-bash · PowerShell · pnpm / bun / uv
+              n8n-class automation · cron · observability dashboards
 ```
 
 ---
 
-## ◀ RUNTIME STATS ▶
+## How I work
+
+```
+READ BEFORE WRITE       never guess — read the source, then edit
+MINIMAL DIFF            smallest change that solves the real problem
+VERIFY AFTER CHANGE     test / lint / smoke / sanity — no exceptions
+EXPLICIT OVER MAGIC     readable code beats clever code
+PRODUCTION OVER EGO     "works now" wins unless it is flagged as an infra bet
+NO SECRETS IN OUTPUT    keys, tokens, PATs — never in a repo, never in a log
+SAY THE DOWNSIDE        name future tech debt out loud, immediately
+```
+
+Interface doctrine: background `#090b10`, radius `0px`, JetBrains Mono, technical
+icons only, **no emoji**.
+
+---
+
+## Current edge
+
+- Agent memory that is agent-agnostic — one shared palace, many runtimes
+- GEO/AEO as a first-class deliverable, with freshness signals and schema
+- Production retail agents measured by margin, not by demos
+- Generative media at queue scale — image, video and voice in one system
+- Edge-native AI: inference and routing close to the customer
+
+---
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=Bonzokoles&show_icons=true&theme=github_dark&bg_color=0a0e14&text_color=00e6a8&title_color=00e6a8&icon_color=00e6a8&hide_border=true)
+### Contribution activity
 
-![](https://github-readme-streak-stats.demolab.com?user=Bonzokoles&theme=dark&background=0a0e14&stroke=00e6a8&ring=00e6a8&fire=ff6b9d&currStreakNum=00e6a8&sideLabels=7d8590&date_format=Y-m-d)
+![snake](https://raw.githubusercontent.com/Bonzokoles/Bonzokoles/output/github-snake.gif)
+
+![stats](https://github-readme-stats.vercel.app/api?username=Bonzokoles&show_icons=true&theme=github_dark&bg_color=0a0e14&text_color=c9d1d9&title_color=7cf3c6&icon_color=7cf3c6&hide_border=true&hide=stars,contribs)
+
+![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Bonzokoles&layout=compact&theme=github_dark&bg_color=0a0e14&text_color=c9d1d9&title_color=7cf3c6&hide_border=true)
 
 </div>
 
 ---
 
-## ─── ACTIVE EXPERIMENTS ───
+## Contact
 
 ```
-[●] LLM fine-tuning for domain-specific reasoning
-[●] Real-time multi-agent coordination systems  
-[●] Vector database semantic search at scale
-[●] Production ML pipeline architecture + observability
-[●] Computer art meets data visualization (wireframe particle systems)
-[●] Streaming + real-time inference on edge infrastructure
-[●] MCP server implementation for agent communication
-[●] Distributed cache invalidation strategies
-```
+STUDIO      https://yutro.company
+AI PLATFORM https://ai.yutro.company
+BLOG / GEO  https://www.mybonzoaiblog.com
+AGENT CLUB  https://jimbo77.org
+GITHUB      https://github.com/Bonzokoles
 
----
-
-## ◆─── CONNECTION VECTORS ───◆
-
-```
-PORTFOLIO:   → yutro.company
-RESEARCH:    → mybonzoaiblog.com
-DIRECT:      → hello@bonzokoles.dev
-PROFESSIONAL:→ linkedin.com/in/bonzokoles
-DISPATCHES:  → @Bonzokoles (Twitter)
-```
-
----
-
-## ▸ COLLABORATION BANDWIDTH
-
-```
-→ Contract/freelance work 
-  (AI integration, full-stack systems, visual engineering)
-
-→ Open source contribution
-  (generative AI, agent frameworks, DevOps tooling)
-
-→ Technical consulting
-  (LLM architecture, production ML, real-time systems)
-
-→ Partnership on bleeding-edge projects
-  (the kind that shouldn't exist yet)
+YUTRO       doyutro@yahoo.com
+BLOG / PUMO stolarnia.ams@gmail.com
 ```
 
 ---
@@ -209,14 +188,9 @@ DISPATCHES:  → @Bonzokoles (Twitter)
 <div align="center">
 
 ```
-> FEAR CAUSES HESITATION & HESITATION WILL CAUSE 
-> YOUR WORST FEARS TO BECOME A REALITY
->
-> BUILD WHAT TERRIFIES YOU.
+FEAR CAUSES HESITATION. HESITATION MAKES YOUR WORST FEARS REAL.
 
-[STATUS: SIGNAL ACTIVE] [MODE: CONSTRUCTION] [NEXT: INFINITY]
+BUILD WHAT TERRIFIES YOU.
 ```
-
-**PROFILE VISITORS:** ![](https://komarev.com/ghpvc/?user=Bonzokoles&label=SIGNAL+DETECTED&color=00e6a8&style=flat)
 
 </div>
